@@ -14,3 +14,6 @@ hello_world.o:
 install: all
 	install -m 0755 -d $(DESTDIR)/$(prefix)/bin/
 	install -m 0755 hello_world $(DESTDIR)/$(prefix)/bin/
+
+clean:
+	$(RM) hello_world hello_world.o
