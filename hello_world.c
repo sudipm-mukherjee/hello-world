@@ -4,7 +4,8 @@
 int main(int argc, char** argv)
 {
 	while(1) {
-		sleep(120);
 		printf("hello Elisa\n");
+		fflush(NULL);
+		sleep(10);
 	}
-}	
+}
